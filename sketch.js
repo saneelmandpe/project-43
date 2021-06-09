@@ -17,13 +17,13 @@ function draw() {
   clues();
   security.display();
   textSize(20);
-  fill("White");
+  fill("orange");
   text("Score: " + score, 450, 50);
 
   if(score === 3) {
     clear()
     background(bg2)
-    fill("White")
+    fill("orange")
     textSize(40);
     text("TREASURE UNLOCKED",250, 200);
   }
